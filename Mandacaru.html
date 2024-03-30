@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- GOOGLE FONTS -->
+    <!-- BOOTSTRAP ICONS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- FIM BOOTSTRAP ICONS -->
+    <!--SLICK SLADER-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <!--FIM SLICK SLADER-->
+    <link rel="stylesheet" href="mandacaru.css">
+
+    <script src="paginas.js" defer></script>
+
+    <title>Jonas End</title>
+</head>
+
+<body>
+
+    <header>
+        <p id="1">.</p>
+        <div id="" class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/Logo.png" alt="Logo principal">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="index.html#especialidades">Especialidades</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="index.html#sobre">Sobre</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="index.html#contato">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+            </div><!--btn-abrir-menu-->
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-x-lg" viewBox="0 0 16 16">
+                        <path
+                            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                    </svg>
+                </div><!--btn-fechar-->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="index.html#especialidades">Especialidades</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="index.html#sobre">Sobre</a></li>
+                        <li><a href="index.html#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div><!--overlay-menu-->
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section id="Home" class="topo-do-site">
+
+            <div class="incorporado" style="text-align: center;">
+
+                <div class="back-raizes">
+                    <img src="mandacaru/backgroud-mandacaru.png">
+                </div>
+                <div class="cartaz">
+                    <img src="mandacaru/poster-man.jpg">
+                </div>
+                <div class="logo-filme">
+                    <img class="logo-filme" src="mandacaru/logo-man.png">
+                </div>
+                <h1>COLETIVO LAGARTIXA BRANCA</h1>
+                <h2>SINOPSE:</h2>
+                <p>"Um documentário que aborda as experiências e sentimentos de pessoas que migraram de diferentes
+                    estados do Nordeste para a cidade de São Paulo, ressaltando também a relevância da História da
+                    migração no Brasil e seus impactos de fluxos com destino para as grandes cidades, assim como a
+                    influência cultural presente no cotidiano dos sudestinos".</p>
+                <button onclick="toggle('conteudo')" class="btn-player">ASSISTIR</button>
+                <div id="conteudo" style="display: none;">
+                    <iframe width="1220" height="686"
+                        src="https://www.youtube.com/embed/Y9mi9RTB_Bc?si=h2TA2CPnAH-Bnxx8" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+            </div><!--incorporado-->
+            <div class="flex">
+                <div class="txt-topo-site">
+                    <div class="title-funcao">
+                        <h3 style="text-decoration: underline;">FUNÇÕES:</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-megaphone" viewBox="0 0 16 16">
+                            <path
+                                d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 75 75 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0m-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233q.27.015.537.036c2.568.189 5.093.744 7.463 1.993zm-9 6.215v-4.13a95 95 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A61 61 0 0 1 4 10.065m-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68 68 0 0 0-1.722-.082z" />
+                        </svg>
+
+                        <h3 style="display: inline-block;">Direção de <span>Cenas</span></h3>
+                    </div>
+                    <p class="lista">
+                        <span>Condução de elenco e figuração criativamente, mantendo a Narrativa proposta;</span>
+                        <span>Elaboração de escaletas e questões para cada protagonista;</span>
+                        <span>Direção de equipe em set de gravação.</span>
+                    </p>
+                    <div class="espaco">
+                        <h8 style="color: black;">.</h8>
+                    </div>
+                    <div class="title-funcao">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                            class="bi bi-map" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.5.5 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103M10 1.91l-4-.8v12.98l4 .8zm1 12.98 4-.8V1.11l-4 .8zm-6-.8V1.11l-4 .8v12.98z" />
+                        </svg>
+
+                        <h3 style="display: inline-block;">Produção de <span>Locação</span></h3>
+                    </div>
+                    <p class="lista">
+                        <span>Análise de trajetos, endereços, durações e valores de locações;</span>
+                        <span>Organização e coordenação de viagem em visitas técnicas e diárias;</span>
+                        <span>Pesquisa de campo para polos necessários ao redor.</span>
+                    </p>
+                    <div class="espaco">
+                        <h8 style="color: black;">.</h8>
+                    </div>
+                    <div class="title-funcao">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-file-earmark-spreadsheet" viewBox="0 0 16 16">
+                            <path
+                                d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V9H3V2a1 1 0 0 1 1-1h5.5zM3 12v-2h2v2zm0 1h2v2H4a1 1 0 0 1-1-1zm3 2v-2h3v2zm4 0v-2h3v1a1 1 0 0 1-1 1zm3-3h-3v-2h3zm-7 0v-2h3v2z" />
+                        </svg>
+
+                        <h3 style="display: inline-block;">Assistente <span>Executivo</span></h3>
+                    </div>
+                    <p class="lista">
+                        <span>Atualizações de documentos (cotação, listas, prestações de contas);</span>
+                        <span>Controle de verba;</span>
+                        <span>Assistência na elaboração de documentos.</span>
+                    </p>
+                    <div class="espaco">
+                        <h8 style="color: black;">.</h8>
+                    </div>
+                    <div class="title-funcao">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-highlighter" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M11.096.644a2 2 0 0 1 2.791.036l1.433 1.433a2 2 0 0 1 .035 2.791l-.413.435-8.07 8.995a.5.5 0 0 1-.372.166h-3a.5.5 0 0 1-.234-.058l-.412.412A.5.5 0 0 1 2.5 15h-2a.5.5 0 0 1-.354-.854l1.412-1.412A.5.5 0 0 1 1.5 12.5v-3a.5.5 0 0 1 .166-.372l8.995-8.07zm-.115 1.47L2.727 9.52l3.753 3.753 7.406-8.254zm3.585 2.17.064-.068a1 1 0 0 0-.017-1.396L13.18 1.387a1 1 0 0 0-1.396-.018l-.068.065zM5.293 13.5 2.5 10.707v1.586L3.707 13.5z" />
+                        </svg>
+
+                        <h3 style="display: inline-block;">Roteirista</h3>
+                    </div>
+                    <p class="lista">
+                        <span>Criação e Escrita de roteiro;</span>
+                        <span>Debate criativo e técnico com equipe;</span>
+                        <span>Pesquisa de referências e informações.</span>
+                    </p>
+                </div>
+
+
+                <div class="txt-topo-site">
+                    <h5>DESCRIÇÃO:</h5>
+                    <h1>UMA PRODUÇÃO LAGARTIXA BRANCA <span>& INSTITUTO CRIAR DE TV, CINEMA E NOVAS
+                            MÍDIAS</span></h1>
+                    <p>Representando um grande marco da minha história, este documentário nasce. Estive presente desde a
+                        criação
+                        da ideia, etapa da elaboração do roteiro juntamente com a equipe da área, e durante todo o
+                        processo. Me mantive
+                        à frente e ativo em todas as situações.</p>
+                    ​
+                    <p>Pensado para ser um dos trabalhos de conclusão de curso (PEC - Projeto
+                        experimental de curso) do Instituto Criar de TV, Cinema e Novas Mídias, o projeto tem o intuito
+                        retratar
+                        os caminhos de três nordestinos em suas migrações de partes do Nordeste para a Cidade de São
+                        Paulo-SP. Representando muitas pessoas da sociedade da capital que têem histórias parecidas,
+                        mostrando também aos que não tiveram acesso à essas experiências, como pode ter sido a vivência
+                        de seus entes próximos.</p>
+                    ​
+                    <p>Neste curta-metragem, tive funçoes importantes para o bom andamento e produção, sendo elas:
+                        Dirigir as cenas criativamente (Com perguntas e questionamentos ao
+                        elenco e figuração à contar suas histórias de migração e como vivem atualmente), produzir
+                        locações e seu derredor, assistenciar a produção executiva
+                        em suas demandas, criar e redigir ideias de estruturação do roteiro e figurar como "eu mesmo" em
+                        cenas necessárias.</p>
+
+
+
+                </div><!--txt-topo-site-->
+
+            </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+        <section class="slider">
+            <h1 class="título">GALERIA</h1>
+            <div class="galeria">
+                <ul class="slick-list">
+
+                    <li>
+                        <h1><img src="mandacaru2/1.jpeg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/2.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/3.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/4.jpeg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/5.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/6.jpeg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/7.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/8.jpeg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/9.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/10.jpeg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/11.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/12.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/13.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/14.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/15.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/16 (2).jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/17.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/18.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/19.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/20.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/21.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/23.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/24.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru2/25.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru/26.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru/27.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru/28.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru/29.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru/35.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru/36.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru/37.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru/38.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru/39.jpg"></h1>
+                    </li>
+                    <li>
+                        <h1><img src="mandacaru/capaman.jpg"></h1>
+                    </li>
+
+
+                </ul>
+            </div>
+        </section>
+        <section id="galeria2" class="galeria2">
+            <div class="interface">
+                <div class="volte">
+                    <a href="#1"><button><svg xmlns="" width="16" height="16" fill="currentColor"
+                                class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708z" />
+                                <path fill-rule="evenodd"
+                                    d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708z" />
+                            </svg>
+                            </svg></button></a>
+                </div>
+                <div class="flex">
+                    <div class="galeria2-box">
+                        <div class="video">
+                            <video width="250px" controls="controls">
+                                <source src="mandacaru/video1.mp4" type="video/mp4">
+                                <object data="" width="250px">
+                                    <embed width="250px" src="mandacaru/video1.mp4">
+                                </object>
+                        </div>
+
+                    </div><!--galeria2-box-->
+                    <div class="galeria2-box">
+                        <div class="video">
+                            <video width="250px" controls="controls">
+                                <source src="mandacaru/video2.mp4" type="video/mp4">
+                                <object data="" width="250px">
+                                    <embed width="250px" src="mandacaru/video2.mp4">
+                                </object>
+                        </div>
+
+                    </div><!--galeria2-box-->
+                    <div class="galeria2-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-file-earmark-person" viewBox="0 0 16 16">
+                            <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                            <path
+                                d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5z" />
+                        </svg>
+                        <h3 style="display: inline-block;">EQUIPE </h3>
+                        <img src="mandacaru/equipe.jpeg">
+                    </div><!--galeria2-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--galeria2-->
+
+        <section id="projetos" class="portfolio">
+            <div class="interface">
+                <h2 class="título">MAIS <span>PROJETOS.</span></h2>
+                <div class="flex">
+                    <a href="Monitoria-sonhos-possiveis.html" class="img-port"
+                        style="background-image: url(monitoria-sonhos-possíveis/cartaz-sonhos-possiveis.png);">
+                        <div class="overlay">MONITORIA T19 - SONHOS POSSÍVEIS</div>
+                    </a>
+                    <a href="Monitoria-PEC2023.html" class="img-port"
+                        style="background-image: url(monitoria-sonhos-possíveis/cartaz-PEC.png);">
+                        <div class="overlay">MONITORIA T19 - PEC2023</div>
+                    </a>
+                    <a href="Matriarca.html" class="img-port"
+                        style="background-image: url(matriarca/Matriarca-cartaz.jpg);">
+                        <div class="overlay">MATRIARCA</div>
+                    </a>
+                </div><!--flex-->
+                <h2 class="título" style="margin: 40px;">VEJA <span>MAIS...</span></h2>
+                <a href="projetos.html"><button>Todos os Projetos</button></a>
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="img/Logo.png" alt="">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a class="#" href="https://www.instagram.com/jhoow_end/" target="_blank"><button><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                </svg></button></a>
+                        <a class="#" href="https://www.linkedin.com/in/jonas-end/" target="_blank"><button><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                </svg></button></a>
+                    </div><!--btn-social-->
+                </div><!--flex-->
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                    </svg> <a href="mailto:jonasendproducao@gmail.com">JONASENDPRODUCAO@GMAIL.COM
+
+                    </a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+        </a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.slick-list').slick({
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 3,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+
+
+    </script>
+
+</body>
+
+</html>
